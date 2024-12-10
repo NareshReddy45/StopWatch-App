@@ -1,0 +1,92 @@
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* Align elements to the left */
+  padding-left: 150px; /* Add padding to the left */
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: 1600px 100%; /* Adjust the size of the background image */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-heading {
+  font-size: 45px;
+  font-weight: 560;
+  text-align: left; /* Align the heading to the left */
+  margin-top: 20px; /* Adds spacing at the top */
+  position: relative; /* Ensures the heading is positioned within the container */
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align elements to the left */
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 40px 30px 30px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adds spacing between heading and stopwatch container */
+}
+
+.timer-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.stopwatch-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.timer-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.timer-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.control-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.stop-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.reset-button {
+  background-color: #eaa800;
+  color: white;
+}
+
+.control-button:hover {
+  opacity: 0.9;
+}
